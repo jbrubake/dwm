@@ -51,3 +51,15 @@ Applied Patches
 ---------------
 
 - dwm-xresources-20210314
+
+Stay Synced with Upstream
+-------------------------
+
+After cloning this repo, add the upstream repository and create a branch to
+track upstream/master
+
+```sh
+$ git remote add upstream "https://git.suckless.org/dwm"
+$ git fetch upstream
+$ git branch upstream upstream/master
+```
